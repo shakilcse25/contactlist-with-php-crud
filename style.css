@@ -1,0 +1,110 @@
+.main{
+  width: 90%;
+  margin: 0px auto;
+}
+body{
+  margin: 0px;
+  font-family: poppins !important;
+}
+
+header{
+  background-color: darkblue;
+  min-height: 120px;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.header_main{
+  padding: 15px;
+}
+
+.header_main h1{
+  text-align: center;
+  vertical-align: middle;
+}
+
+section{
+  min-height: 500px;
+  border: 1px solid gray;
+}
+.section_main{
+  padding: 8px;
+}
+
+
+footer{
+  background-color: darkblue !important;
+  min-height: 120px;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.footer_main{
+  padding: 15px;
+}
+
+.footer_main h1{
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+
+
+.panel-heading{
+  display: flow-root;
+}
+
+.intro_panel{
+  display: inline-block;
+  padding-top: 8px;
+}
+.add{
+  color: black;
+  font-size: 18px;
+}
+.add i{
+  font-size: 24px;
+  vertical-align: middle;
+}
+table td i{
+  font-size: 20px;
+  padding: 0px 8px;
+}
+table,tr,td,table th{
+  text-align: center;
+}
+.addform{
+  margin: 0px auto;
+  width: 475px;
+}
+.single_form{
+  margin-bottom: 20px;
+  position: relative;
+}
+.addform .sub{
+  margin-top: 40px;
+}
+.single_form p{
+  position: absolute;
+  top: 44%;
+  left: 102%;
+  display: table;
+  background-color: red;
+  padding: 7px 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
